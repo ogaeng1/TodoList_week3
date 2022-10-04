@@ -1,0 +1,16 @@
+.list-container {
+    width: 100%;
+    height: 70vh;
+}
+
+.list-title {
+    margin-left: 10px;
+}
+
+.list-wrap {
+    margin: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
