@@ -17,8 +17,6 @@ function Form({setTodos, todos}) {
 
     const onClick = (event) => {
         event.preventDefault();
-        if (todo.title.trim()==="" || todo.content.trim()=== "")
-            return;
         setTodos([...todos, {...todo, id: id_num}]);
         setTodo(todoContent);
         id_num++;
